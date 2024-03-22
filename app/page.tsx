@@ -24,7 +24,7 @@ const page = () => {
           return <img key={i} src={elem.download_url}
             width={300}
             height={300}
-            className="m-10 rounded-sm inline-block" />
+            className="m-10 rounded inline-block" />
         })}
       </div>
     </div>
